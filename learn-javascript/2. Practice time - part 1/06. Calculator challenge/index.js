@@ -1,4 +1,4 @@
-let num1 = 0
+let num1 = 8
 let num2 = 5
 let res =0
 document.getElementById("num1-el").textContent = num1
