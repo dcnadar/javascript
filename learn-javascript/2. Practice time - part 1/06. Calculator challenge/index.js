@@ -1,5 +1,5 @@
-let num1 = 8
-let num2 = 2
+let num1 = 0
+let num2 = 5
 let res =0
 document.getElementById("num1-el").textContent = num1
 document.getElementById("num2-el").textContent = num2
@@ -8,15 +8,19 @@ result=document.getElementById('sum-el');
 // Create four functions: add(), subtract(), divide(), multiply()
 function add() {
     res=num1+num2;
+    result.textContent=" Sum: "+res
 }
 function subtract() {
     res=num1-num2;
+    result.textContent="Subtract: "+res
 }
 function divide() {
     res=num1/num2;
+    result.textContent="Divide: "+res
 }
 function multiply() {
     res= num1*num2;
+    result.textContent="Multiply: "+res
 }
 
 // Call the correct function when the user clicks on one of the buttons
