@@ -1,6 +1,6 @@
 // Check if the person is elegible for a birthday card from the King! (100)
 
-let age = 1002
+let age = 100
 
 if (age<100) {
     console.log("Not Elegible");
@@ -8,7 +8,7 @@ if (age<100) {
     console.log("Here is ur gift from the king");
 }
 else{
-    console.log("Not elegible");
+    console.log("Not elegible, you have already gotten one");
 }
 
 // if less than 100    -> "Not elegible"
