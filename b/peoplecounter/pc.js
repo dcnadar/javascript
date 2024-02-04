@@ -1,16 +1,20 @@
 // Get the counter element
 let counterElement = document.getElementById('counter');
 let saveEl=document.getElementById('save');
-
+// let clearEl=document.getElementById('clear');
+function savereset() {
+    saveEl.textContent ="People Enterred:"+ "";
+}
 // Initialize the counter
 var count = 0;
+function clearCounter() {
+    count=0;
+    updateCounter();
+    
+}
 
 function save(){
     saveEl.textContent+=count+" - ";
-    // if(count>=0){
-    //     count=0;
-    //     counterElement.textContent=0;
-    // }
     count=0;
     counterElement.textContent=0;
 }
@@ -33,6 +37,7 @@ function decrement() {
 function updateCounter() {
     counterElement.textContent = count;
 }
+
 
 
 
