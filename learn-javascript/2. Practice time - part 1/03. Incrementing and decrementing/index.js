@@ -9,9 +9,9 @@ function remove1Point() {
     myPoints-=1;
 }
 
-while (myPoints!=10) {
+while (myPoints!=24) {
 
-if (myPoints>10) {
+if (myPoints>24) {
     remove1Point()
 }
 else{
