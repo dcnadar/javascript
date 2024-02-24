@@ -25,13 +25,13 @@ function startGame() {
 
 
 function newCard() {
-    message="Drawing a new card from the deck!"
+    message = "Drawing a new card from the deck!"
     // 1. Create a card variable, and hard code its value to a number (2-11)
-    messageEl.textContent=message
-    let card =7
-    
+    messageEl.textContent = message
+    let card = 7
+
     // 2. Add the new card to the sum variable
-    sum+=card
+    sum += card
     // 3. Call startGame()
     startGame()
 }
