@@ -1,4 +1,4 @@
-let randomNumber = Math.random()
+let randomNumber = Math.random() * 15
 
 console.log(randomNumber)
 

@@ -7,8 +7,8 @@
 // What's the STEP SIZE we should use?
 
 //    START           FINISH       STEP SIZE
-for ( let count = 1;  count < 11;  count += 1 )  {
-    
+for (let count = 1; count < 11; count += 2) {
+
     console.log(count)
 
 }
