@@ -3,7 +3,7 @@ const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
 
-inputBtn.addEventListener("click", function() {
+inputBtn.addEventListener("click", function () {
     myLeads.push(inputEl.value)
     inputEl.value = ""
     renderLeads()
@@ -20,5 +20,5 @@ function renderLeads() {
             </li>
         `
     }
-    ulEl.innerHTML = listItems  
+    ulEl.innerHTML = listItems
 }

@@ -1,12 +1,16 @@
-let myLeads = ["www.awesomelead.com"]
-
-
+let myLeads = `["www.awesomelead.com"]`
+// parse is used to turn string into array
+myLeads = JSON.parse(myLeads)
+myLeads.push("new leasds")
+// stringify is used to turn into string
+myLeads = JSON.stringify(myLeads)
+console.log(myLeads)
 
 const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
 
-inputBtn.addEventListener("click", function() {
+inputBtn.addEventListener("click", function () {
     myLeads.push(inputEl.value)
     inputEl.value = ""
     renderLeads()
@@ -23,5 +27,5 @@ function renderLeads() {
             </li>
         `
     }
-    ulEl.innerHTML = listItems  
+    ulEl.innerHTML = listItems
 }

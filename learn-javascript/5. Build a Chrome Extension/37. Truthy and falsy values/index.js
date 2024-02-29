@@ -14,7 +14,7 @@
 // ""
 // null -> how you as a developer signalize emptiness
 // undefined -> how JavaScript signalizes emptiness
-// NaN
+// NaN -> not a number
 
 let currentViewers = null
 
@@ -24,5 +24,7 @@ currentViewers = null
 
 if (currentViewers) {
     // do something , e.g. notify the live streamers
-    console.log("we have viewers")
+    console.log("we have viewers ")
+} else {
+    console.log("No viewers")
 }
